@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tw.xiaotuzi.trialcooldown.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "TrialSpawnerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

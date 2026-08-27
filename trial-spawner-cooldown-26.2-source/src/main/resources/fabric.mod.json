@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "trial-spawner-cooldown",
+  "version": "${version}",
+  "name": "Trial Spawner Cooldown",
+  "description": "Configurable Trial Spawner cooldown for Minecraft 26.2 Fabric servers.",
+  "authors": ["xiao tuzi"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tw.xiaotuzi.trialcooldown.TrialSpawnerCooldownMod"
+    ]
+  },
+  "mixins": [
+    "trial-spawner-cooldown.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2"
+  }
+}
