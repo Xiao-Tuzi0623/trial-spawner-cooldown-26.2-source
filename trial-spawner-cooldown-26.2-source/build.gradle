@@ -34,9 +34,3 @@ java {
     targetCompatibility = JavaVersion.VERSION_25
     withSourcesJar()
 }
-
-jar {
-    from("LICENSE") {
-        rename { "${it}_${project.archives_base_name}" }
-    }
-}
